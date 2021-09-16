@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "module": "es2015",
+    "target": "esnext",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "allowJs": false,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018"
+    ],
+    "types": ["node"],
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
